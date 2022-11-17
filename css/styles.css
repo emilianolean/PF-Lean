@@ -26,7 +26,7 @@ header{
 }
 
 .encabezado-inicio{
-    background-image: url(../img/Encabezado-img.jpg);
+    background-image: url(../img/Encabezado-inicio.jpg);
     height: 600px;
     background-size: cover;
     display: flex;

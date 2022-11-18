@@ -196,23 +196,16 @@ main .Ubicacion{
     outline: 0px;
 }
 
-.container-form form textarea{
-    max-width: 530px;
-    min-width: 530px;
-    min-height: 140px;
-    max-height: 150px;
-}
-
 .container-form .btn-enviar{
     padding: 15px;
     font-size: 16px;
     border: none;
     outline: 0px;
-    background: orange;
+    background: rgb(218, 161, 55);
     color: whitesmoke;
-    border-radius: 3px;
+    border-radius: 4px;
     cursor: pointer;
-    transition: all 400ms ease;
+    transition: all 300ms ease;
 }
 
 /* animaciones del boton enviar */

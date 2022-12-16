@@ -1,0 +1,34 @@
+// lo utilizamos para poder reutilizar codigo
+
+// mixin con parametros
+
+@mixin medidas($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin flex {
+    background-color: $color-texto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin encabezados{
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color-titulos;
+}
+
+@mixin estilo{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
